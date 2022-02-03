@@ -244,7 +244,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/ffmpeg -i "$1" -c:v libx265 -crf 28 -c:a aac -b:a 128k -tag:v hvc1 "$1.mp4"</string>
+					<string>/usr/local/bin/ffmpeg -i "$1" -c:v libx265 -crf 28 -c:a aac -b:a 128k -tag:v hvc1 "$1-hevc.mp4"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -369,14 +369,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>37645B60-28CF-462A-ABAB-B855E9A7209D</key>
+		<key>259AD326-EEC2-4572-B102-ECE114406827</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 		</dict>
-		<key>847F56D1-C815-4227-BD2A-312A36C62DD3</key>
+		<key>48380117-BF8F-406A-BE1D-52CA4116370F</key>
 		<dict>
 			<key>from</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
