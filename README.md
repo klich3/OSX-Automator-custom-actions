@@ -12,9 +12,14 @@ Desc: description-->
 
 ***First step***: you need install brew [https://brew.sh/]
 ***Second step***: 
-
+For Videos
 ```shell
 brew install ffmpeg ffmpeg2theora
+```
+
+Images
+```shell
+brew install --with-libheif imagemagick
 ```
 
 now you have all to done it, okey...
@@ -58,6 +63,15 @@ Structure:
 * Rename items from folder:
   * Replace text, search: .jpeg, replace: .jpg, in options check: show process
 
+*** Video HEIC to JPG transparent ***:
+```shell
+/usr/local/bin/magick convert $1 "$1.jpg"
+```
+
+*** Video JPG to HEIC transparent ***:
+```shell
+/usr/local/bin/magick convert $1 "$1.heic"
+```
 
 ## Issue how I know if it working?
 
