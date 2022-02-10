@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:291.000000</string>
+				<string>427.500000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -244,7 +244,9 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/ffmpeg -i "$1" -c:v libx265 -crf 28 -c:a aac -b:a 128k -tag:v hvc1 "$1-hevc.mp4"</string>
+					<string>for i in "$@"; do
+	/usr/local/bin/ffmpeg -i "$i" -c:v libx265 -crf 28 -c:a aac -b:a 128k -tag:v hvc1 "$i-hevc-q28.mp4"
+done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -359,7 +361,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:473.000000</string>
+				<string>427.500000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -369,19 +371,19 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>259AD326-EEC2-4572-B102-ECE114406827</key>
-		<dict>
-			<key>from</key>
-			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
-			<key>to</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
-		</dict>
-		<key>48380117-BF8F-406A-BE1D-52CA4116370F</key>
+		<key>78F9B97F-71CA-4676-9169-B8F6CAE17C61</key>
 		<dict>
 			<key>from</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 			<key>to</key>
 			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
+		</dict>
+		<key>A780C6E4-5BE6-4623-AE12-CFAEE4F5ACB6</key>
+		<dict>
+			<key>from</key>
+			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
+			<key>to</key>
+			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 		</dict>
 	</dict>
 	<key>variables</key>

@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:291.000000</string>
+				<string>427.500000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -244,7 +244,10 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string> /usr/local/bin/magick convert "$1" "$1.jpg"</string>
+					<string>for i in "$@"; do
+	 /usr/local/bin/magick convert "$i" "$i.jpg"
+done
+</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -359,7 +362,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:473.000000</string>
+				<string>427.500000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -369,14 +372,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>243EB611-2238-4DFD-9FFC-D617CEA35FDD</key>
+		<key>022EBC51-BAD5-4336-8578-3DBD80821DAD</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 		</dict>
-		<key>3D34CF11-91E4-450C-8E0A-8035FBF591B0</key>
+		<key>30193906-1141-4DA9-9272-A6A2DDAD9116</key>
 		<dict>
 			<key>from</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>

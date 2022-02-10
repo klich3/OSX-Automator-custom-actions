@@ -64,13 +64,13 @@
 				<key>Class Name</key>
 				<string>AMGetSelectedFinderItemsAction</string>
 				<key>InputUUID</key>
-				<string>4F138984-32C5-412A-AD19-D14600C9BA51</string>
+				<string>C369642D-BD92-46E9-9FED-C780B0166A61</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>6AF3A293-E44F-4050-89D8-848D8BA4C325</string>
+				<string>B07F07C1-3FC3-4218-9368-E2E87A419DE0</string>
 				<key>UUID</key>
-				<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
+				<string>ECC00298-B8C2-47C2-8B36-4D16F98A765A</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -112,7 +112,7 @@
 						<key>isPathPopUp</key>
 						<false/>
 						<key>selectedVariableUUID</key>
-						<string>2DA6480C-0713-4CD9-85D9-E5FE28F01F0C</string>
+						<string>C8247750-41D0-4A35-B68B-3FBC23F65604</string>
 						<key>variableUUIDsInMenu</key>
 						<array/>
 					</dict>
@@ -135,7 +135,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>variableUUID</key>
-					<string>2DA6480C-0713-4CD9-85D9-E5FE28F01F0C</string>
+					<string>C8247750-41D0-4A35-B68B-3FBC23F65604</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.SetValueofVariable</string>
@@ -152,7 +152,7 @@
 				<key>Class Name</key>
 				<string>Set_Value_of_Variable</string>
 				<key>InputUUID</key>
-				<string>2882D9AC-3039-4C78-AF48-1B9C30356CB6</string>
+				<string>81EF6D39-264A-4A81-9598-398CFA247819</string>
 				<key>Keywords</key>
 				<array>
 					<string>variable</string>
@@ -162,9 +162,9 @@
 					<string>almacenamiento</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>92DFE1B5-2EB2-4A16-AE84-024A2FB3A880</string>
+				<string>5060DE29-7561-434F-BCBE-A9B3FF99CEB5</string>
 				<key>UUID</key>
-				<string>9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+				<string>DAA08BE1-1DE7-4287-9294-AD84B0465D60</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -245,7 +245,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg -i "$i" -c:v copy -c:a copy -y "$i.mp4"
+	/usr/local/bin/ffmpeg -i "$i" -c copy "$i-hd.mkv"
 done
 </string>
 					<key>CheckedForUserDefaultShell</key>
@@ -272,7 +272,7 @@ done
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>F1FE8CB8-3E56-4620-8F20-74C52121B459</string>
+				<string>ADF398A6-B438-477E-8541-05E5415CA1D8</string>
 				<key>Keywords</key>
 				<array>
 					<string>Shell</string>
@@ -282,11 +282,9 @@ done
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>DDD7E765-3221-4091-94FD-265FC0FB3BAA</string>
-				<key>ShowWhenRun</key>
-				<false/>
+				<string>9C65E190-7E15-47A1-9286-A3DCE991A526</string>
 				<key>UUID</key>
-				<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
+				<string>172EF5B3-483F-41A2-B729-DF387E5D1E88</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -372,26 +370,26 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>DB445116-B38A-44A3-8FC8-0BDA7CB8FB35</key>
+		<key>751CFED6-F440-4D10-B465-324F09329B35</key>
 		<dict>
 			<key>from</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+			<string>DAA08BE1-1DE7-4287-9294-AD84B0465D60 - DAA08BE1-1DE7-4287-9294-AD84B0465D60</string>
 			<key>to</key>
-			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
+			<string>172EF5B3-483F-41A2-B729-DF387E5D1E88 - 172EF5B3-483F-41A2-B729-DF387E5D1E88</string>
 		</dict>
-		<key>FA9AF2D7-7715-48EF-B416-649A559FF2DF</key>
+		<key>AAE6CEAE-668D-4EAD-98B7-7735E30ED42D</key>
 		<dict>
 			<key>from</key>
-			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
+			<string>ECC00298-B8C2-47C2-8B36-4D16F98A765A - ECC00298-B8C2-47C2-8B36-4D16F98A765A</string>
 			<key>to</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+			<string>DAA08BE1-1DE7-4287-9294-AD84B0465D60 - DAA08BE1-1DE7-4287-9294-AD84B0465D60</string>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<array>
 		<dict>
 			<key>UUID</key>
-			<string>2DA6480C-0713-4CD9-85D9-E5FE28F01F0C</string>
+			<string>C8247750-41D0-4A35-B68B-3FBC23F65604</string>
 			<key>identifier</key>
 			<string>com.apple.Automator.Variable.Storage</string>
 			<key>name</key>
@@ -405,7 +403,7 @@ done
 		<key>applicationPaths</key>
 		<array/>
 		<key>inputTypeIdentifier</key>
-		<string>com.apple.Automator.fileSystemObject.movie</string>
+		<string>com.apple.Automator.fileSystemObject</string>
 		<key>outputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>presentationMode</key>
@@ -413,7 +411,7 @@ done
 		<key>processesInput</key>
 		<integer>0</integer>
 		<key>serviceInputTypeIdentifier</key>
-		<string>com.apple.Automator.fileSystemObject.movie</string>
+		<string>com.apple.Automator.fileSystemObject</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
@@ -421,7 +419,7 @@ done
 		<key>systemImageName</key>
 		<string>NSTouchBarCommunicationVideo</string>
 		<key>useAutomaticInputType</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
 	</dict>

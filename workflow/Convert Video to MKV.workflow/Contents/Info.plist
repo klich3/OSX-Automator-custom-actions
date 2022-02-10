@@ -12,13 +12,13 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Conver VIDEO to HEVC</string>
+				<string>Convert Video to MKV</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
 			<key>NSSendFileTypes</key>
 			<array>
-				<string>public.movie</string>
+				<string>public.item</string>
 			</array>
 		</dict>
 	</array>

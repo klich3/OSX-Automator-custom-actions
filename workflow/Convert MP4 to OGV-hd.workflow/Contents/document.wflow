@@ -77,8 +77,6 @@
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -187,12 +185,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:291.000000</string>
+				<string>427.500000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -248,7 +244,10 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/ffmpeg2theora "$1" --videoquality 7 --audioquality 4 --output "$1-hd.ogv"</string>
+					<string>for i in "$@"; do
+	/usr/local/bin/ffmpeg2theora "$i" --videoquality 7 --audioquality 4 --output "$i-hd.ogv"
+done
+</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -358,12 +357,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:473.000000</string>
+				<string>427.500000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -373,14 +370,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>DD04CD2D-6152-4DB2-B647-E50130E71116</key>
+		<key>B2723143-3712-4440-ABAE-AE279118CB3D</key>
 		<dict>
 			<key>from</key>
 			<string>DAA08BE1-1DE7-4287-9294-AD84B0465D60 - DAA08BE1-1DE7-4287-9294-AD84B0465D60</string>
 			<key>to</key>
 			<string>172EF5B3-483F-41A2-B729-DF387E5D1E88 - 172EF5B3-483F-41A2-B729-DF387E5D1E88</string>
 		</dict>
-		<key>F3ECC6DF-5464-4679-8925-54F3721F8B7F</key>
+		<key>DD474702-E166-4B11-9B08-FABC9E70FF86</key>
 		<dict>
 			<key>from</key>
 			<string>ECC00298-B8C2-47C2-8B36-4D16F98A765A - ECC00298-B8C2-47C2-8B36-4D16F98A765A</string>

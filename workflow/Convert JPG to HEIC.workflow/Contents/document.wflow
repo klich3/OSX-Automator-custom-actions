@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:291.000000</string>
+				<string>427.500000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -244,7 +244,10 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string> /usr/local/bin/magick convert "$1" "$1.heic"</string>
+					<string>for i in "$@"; do
+	/usr/local/bin/magick convert "$i" "$i.heic"
+done
+</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -359,7 +362,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>355.500000:473.000000</string>
+				<string>427.500000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -369,14 +372,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>60321CC5-CC3F-4FF1-9B69-630A8EBE0F63</key>
+		<key>3A273E19-72AB-493D-9346-7BD30F5CA896</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 		</dict>
-		<key>F8E69E7E-C8B7-45D2-BBDD-8185402F13D3</key>
+		<key>970A5370-4EC9-4344-8858-4920FAFD1B88</key>
 		<dict>
 			<key>from</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
