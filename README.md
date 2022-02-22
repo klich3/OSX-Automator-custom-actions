@@ -22,6 +22,11 @@ Images
 brew install --with-libheif imagemagick
 ```
 
+Images AVIF
+```shell
+brew install joedrago/repo/avifenc
+```
+
 now you have all to done it, okey...
 
 ## Automator creating service convert videos
@@ -54,6 +59,12 @@ Open Automator and select `service` with next structure:
 ```shell
 /usr/local/bin/ffmpeg -i "$1" -c:v libvpx-vp9 "$1.webm"
 ```
+
+*** Images to AVIF transparent ***:
+```shell
+/usr/local/bin/avifenc "$1" "$1.avif"
+```
+Doc: https://web.dev/compress-images-avif/
 
 ## Automator creating service convert batch images
 
