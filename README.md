@@ -60,11 +60,16 @@ Open Automator and select `service` with next structure:
 /usr/local/bin/ffmpeg -i "$1" -c:v libvpx-vp9 "$1.webm"
 ```
 
-*** Images to AVIF transparent ***:
+*** Images to AVIF ***:
 ```shell
 /usr/local/bin/avifenc "$1" "$1.avif"
 ```
 Doc: https://web.dev/compress-images-avif/
+
+*** Images AVIF to JPG ***:
+```shell
+/usr/local/bin/avifdec "$1" "$1.jpg"
+```
 
 ## Automator creating service convert batch images
 
