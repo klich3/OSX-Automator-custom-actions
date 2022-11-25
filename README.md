@@ -1,9 +1,25 @@
-<!--
-Author: <Anthony Sychev> (hello at dm211 dot com | a.sychev at jfranc dot studio) 
-Buy me a coffe: https://www.buymeacoffee.com/twooneone
-README.md (c) 2022 
-Created:  2022-02-03 19:23:11 
-Desc: description-->
+# WHAT IS?
+
+This is multiples "Automator" tools.
+
+# WHERE TO INSTALL
+
+The scripts folder are located on `/Users/<USER>/Library/Services/`
+
+copy all workflows manually or run script:
+
+1) in terminal go to cloned dir
+2) `chmod +x install.sh `
+3) `./install.sh`
+
+
+Others folders:
+
+***Services*** - ~/Library/Services
+***Folder Action*** - The actual workflow is saved in ~/Library/Workflows/Applications/Folder Actions. When creating the folder action, it asks for a folder to 'attach' to in the dropdown at the top. The actions will apply to the folder you choose here.
+***Print Plugin*** - ~/Library/PDF Services
+***iCal Alarm*** - ~/Library/Workflows/Applications/iCal
+***Image Capture Plugin*** - ~/Library/Workflows/Applications/Image Capture
 
 # How to add new functions on `Fast actions` submenu
 ![Acciones rapidas submenu][image1]
