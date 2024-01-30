@@ -115,3 +115,9 @@ In your top bar appear animated gear.
 [image1]: images/image_1.png
 [image2]: images/image_2_automator.png
 [image3]: images/image_3_process.png
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=klich3/OSX-Automator-custom-actions&type=Date)](https://star-history.com/#klich3/OSX-Automator-custom-actions&Date)
