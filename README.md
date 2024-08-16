@@ -2,6 +2,20 @@
 
 This is multiples "Automator" tools.
 
+- Convert AVI to MP4
+- Convert AVIF to JPG
+- Convert Image to AVIF
+- Convert JPG to HEIC
+- Convert HEIC to JPG
+- Convert MOV to MP4
+- Convert MOV to GIF
+- Convert Video to HEVC 1:1
+- Covert Video to HEVC SD
+- Convert Video to MKV
+- Convert Mov to WEBP
+- Files Batch Rename
+
+
 # WHERE TO INSTALL
 
 The scripts folder are located on `/Users/<USER>/Library/Services/`
