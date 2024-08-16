@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>512</string>
+	<string>523</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:291.000000</string>
+				<string>617.000000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -245,7 +245,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg2theora "$i" --videoquality 4 --audioquality 2 --output "$i-sd.ogv"
+	/usr/local/bin/ffmpeg2theora "$i" --videoquality 4 --audioquality 2 --output "$i-sd.ogv" &gt; /dev/null 2&gt;&amp;1 &amp;
 done
 </string>
 					<key>CheckedForUserDefaultShell</key>
@@ -360,7 +360,7 @@ done
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:473.000000</string>
+				<string>617.000000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -370,19 +370,19 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>036B8687-DC8B-4C21-B826-074F13C631B9</key>
-		<dict>
-			<key>from</key>
-			<string>DAA08BE1-1DE7-4287-9294-AD84B0465D60 - DAA08BE1-1DE7-4287-9294-AD84B0465D60</string>
-			<key>to</key>
-			<string>172EF5B3-483F-41A2-B729-DF387E5D1E88 - 172EF5B3-483F-41A2-B729-DF387E5D1E88</string>
-		</dict>
-		<key>F3F470FB-75CC-4601-8EBC-1222EBBA1D37</key>
+		<key>94BCB025-B6DA-461B-801D-EF3BC8482D4D</key>
 		<dict>
 			<key>from</key>
 			<string>ECC00298-B8C2-47C2-8B36-4D16F98A765A - ECC00298-B8C2-47C2-8B36-4D16F98A765A</string>
 			<key>to</key>
 			<string>DAA08BE1-1DE7-4287-9294-AD84B0465D60 - DAA08BE1-1DE7-4287-9294-AD84B0465D60</string>
+		</dict>
+		<key>97D24A50-AD6E-4E52-8D68-3C842F47EDD8</key>
+		<dict>
+			<key>from</key>
+			<string>DAA08BE1-1DE7-4287-9294-AD84B0465D60 - DAA08BE1-1DE7-4287-9294-AD84B0465D60</string>
+			<key>to</key>
+			<string>172EF5B3-483F-41A2-B729-DF387E5D1E88 - 172EF5B3-483F-41A2-B729-DF387E5D1E88</string>
 		</dict>
 	</dict>
 	<key>variables</key>

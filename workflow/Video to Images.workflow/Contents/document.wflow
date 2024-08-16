@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>520</string>
+	<string>523</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -80,7 +80,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:244.000000</string>
+				<string>207.000000:68.000000</string>
 			</dict>
 			<key>isViewVisible</key>
 			<integer>1</integer>
@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:527.000000</string>
+				<string>617.000000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -244,7 +244,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/ffmpeg -i "$@" -vf fps=24 -vsync 0 "$@%006d.png"</string>
+					<string>/usr/local/bin/ffmpeg -i "$@" -vf fps=24 -vsync 0 "$@%006d.png" &gt; /dev/null 2&gt;&amp;1 &amp;</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -359,7 +359,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:889.000000</string>
+				<string>617.000000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -369,19 +369,19 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>5EA8AD81-EB6A-4260-A7CF-A78E1EEC95F1</key>
-		<dict>
-			<key>from</key>
-			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
-			<key>to</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
-		</dict>
-		<key>78D0B979-A0A9-44FA-BA2B-DB8E561433F6</key>
+		<key>3D6B8F81-4F23-485E-BE22-197F3FECB5D5</key>
 		<dict>
 			<key>from</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 			<key>to</key>
 			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
+		</dict>
+		<key>C20AB78C-ECD6-4373-94FF-07D0338AE2C9</key>
+		<dict>
+			<key>from</key>
+			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
+			<key>to</key>
+			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 		</dict>
 	</dict>
 	<key>variables</key>

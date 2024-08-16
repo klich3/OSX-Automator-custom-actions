@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>520</string>
+	<string>523</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:291.000000</string>
+				<string>617.000000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -245,7 +245,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg -i "$i" -vcodec h264 -acodec aac "$i-out.mp4"
+	/usr/local/bin/ffmpeg -i "$i" -vcodec h264 -acodec aac "$i-out.mp4" &gt; /dev/null 2&gt;&amp;1 &amp;
 done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -361,7 +361,7 @@ done</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:473.000000</string>
+				<string>617.000000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -371,19 +371,19 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>7060ACE4-9D1A-4859-A864-EDBF4ED36F50</key>
-		<dict>
-			<key>from</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
-			<key>to</key>
-			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
-		</dict>
-		<key>8AF403F7-8884-47FD-A160-E324C53CAB41</key>
+		<key>1DC823EB-E1AA-4CDA-9F56-38624A1F48F3</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+		</dict>
+		<key>FB79973D-FA6B-408E-9B43-F935250A058D</key>
+		<dict>
+			<key>from</key>
+			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+			<key>to</key>
+			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
 		</dict>
 	</dict>
 	<key>variables</key>

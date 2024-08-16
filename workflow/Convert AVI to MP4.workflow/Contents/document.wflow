@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>512</string>
+	<string>523</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:291.000000</string>
+				<string>617.000000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -245,7 +245,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg -i "$i" -c:v copy -c:a copy -y "$i.mp4"
+	/usr/local/bin/ffmpeg -i "$i" -c:v copy -c:a copy -y "$i.mp4" &gt; /dev/null 2&gt;&amp;1 &amp;
 done
 </string>
 					<key>CheckedForUserDefaultShell</key>
@@ -362,7 +362,7 @@ done
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:473.000000</string>
+				<string>617.000000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -372,19 +372,19 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>DB445116-B38A-44A3-8FC8-0BDA7CB8FB35</key>
-		<dict>
-			<key>from</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
-			<key>to</key>
-			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
-		</dict>
-		<key>FA9AF2D7-7715-48EF-B416-649A559FF2DF</key>
+		<key>8A4B6F5C-EB4B-4996-84D9-620C9A66C74C</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+		</dict>
+		<key>EFEBDA86-CAAB-4B45-96EB-E4775E9675CB</key>
+		<dict>
+			<key>from</key>
+			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+			<key>to</key>
+			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
 		</dict>
 	</dict>
 	<key>variables</key>

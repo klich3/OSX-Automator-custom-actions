@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>512</string>
+	<string>523</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -80,7 +80,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:244.000000</string>
+				<string>207.000000:68.000000</string>
 			</dict>
 			<key>isViewVisible</key>
 			<integer>1</integer>
@@ -190,7 +190,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:291.000000</string>
+				<string>617.000000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -247,7 +247,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg -i "$i" -c:v libx265 -vtag hvc1 -c:a copy "$i-hevc-c.mp4"
+	/usr/local/bin/ffmpeg -i "$i" -c:v libx265 -vtag hvc1 -c:a copy "$i-hevc-c.mp4" &gt; /dev/null 2&gt;&amp;1 &amp;
 done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -363,7 +363,7 @@ done</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:808.000000</string>
+				<string>617.000000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -373,19 +373,19 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>9FEEAAC8-8EA3-4BEE-8375-4E750ED957C4</key>
-		<dict>
-			<key>from</key>
-			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
-			<key>to</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
-		</dict>
-		<key>E5FF9C73-120C-4872-91B1-8BFA03BFA39E</key>
+		<key>59AF0800-D13C-4DAD-B7BA-713D18AF85CB</key>
 		<dict>
 			<key>from</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 			<key>to</key>
 			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
+		</dict>
+		<key>EEFA36CF-444D-44CC-BEF5-66D07ED2BDAA</key>
+		<dict>
+			<key>from</key>
+			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
+			<key>to</key>
+			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 		</dict>
 	</dict>
 	<key>variables</key>

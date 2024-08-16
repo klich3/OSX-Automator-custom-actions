@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>512</string>
+	<string>523</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -188,7 +188,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:291.000000</string>
+				<string>617.000000:291.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -245,7 +245,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg -i "$i" -c:v libvpx-vp9 "$i.webm"
+	/usr/local/bin/ffmpeg -i "$i" -c:v libvpx-vp9 "$i.webm" &gt; /dev/null 2&gt;&amp;1 &amp;
 done
 </string>
 					<key>CheckedForUserDefaultShell</key>
@@ -362,7 +362,7 @@ done
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:473.000000</string>
+				<string>617.000000:473.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -372,14 +372,14 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>5BBA420A-0AFA-4A8B-90D5-9D230D67A95E</key>
+		<key>1AA855CC-2AE1-4A9B-BD86-FD3C3129F9D0</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 		</dict>
-		<key>81B348D5-7963-422B-85B5-F86D288C71E5</key>
+		<key>26DABD0D-5890-439A-B244-98723A100628</key>
 		<dict>
 			<key>from</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>

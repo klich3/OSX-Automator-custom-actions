@@ -28,7 +28,7 @@ Others folders:
 # How to add new functions on `Fast actions` submenu
 ![Acciones rapidas submenu][image1]
 
-## Dependences FFMPEG
+## Dependences for proper works
 
 ***First step***: you need install brew [https://brew.sh/]
 ***Second step***: 
@@ -39,7 +39,7 @@ brew install ffmpeg ffmpeg2theora
 
 Images
 ```shell
-brew install --with-libheif imagemagick
+brew install imagemagick
 ```
 
 Images AVIF

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>520</string>
+	<string>523</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -163,6 +163,8 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>92DFE1B5-2EB2-4A16-AE84-024A2FB3A880</string>
+				<key>ShowWhenRun</key>
+				<false/>
 				<key>UUID</key>
 				<string>9C66A569-6503-4C00-8C24-5604369FA1DA</string>
 				<key>UnlocalizedApplications</key>
@@ -188,7 +190,7 @@
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:291.000000</string>
+				<string>617.000000:347.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -245,8 +247,9 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg -i "$i" -pix_fmt rgb8 -r 10 "$i-out.gif" &amp;&amp; gifsicle -O3 "$i-out.gif" -o "$i-out.gif"
-done</string>
+	/usr/local/bin/ffmpeg -i "$i" -pix_fmt rgb8 -r 10 "$i-out.gif" &amp;&amp; gifsicle -O3 "$i-out.gif" -o "$i-out.gif" -loglevel quiet -hide_banner &gt; /dev/null 2&gt;&amp;1 &amp;
+done
+</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -270,6 +273,8 @@ done</string>
 				</array>
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
+				<key>IgnoresInput</key>
+				<false/>
 				<key>InputUUID</key>
 				<string>F1FE8CB8-3E56-4620-8F20-74C52121B459</string>
 				<key>Keywords</key>
@@ -361,7 +366,7 @@ done</string>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>427.500000:473.000000</string>
+				<string>617.000000:709.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -371,19 +376,19 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>20E57758-5272-4D2D-B9F2-44A833DBF077</key>
-		<dict>
-			<key>from</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
-			<key>to</key>
-			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
-		</dict>
-		<key>9D481093-95E9-4291-B612-6CEBCEB36A1B</key>
+		<key>190A78EE-CBFA-4F6D-AC67-1F80B9589ADA</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+		</dict>
+		<key>4D2BEE10-92A3-4C69-8323-338C9C5020D0</key>
+		<dict>
+			<key>from</key>
+			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+			<key>to</key>
+			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
 		</dict>
 	</dict>
 	<key>variables</key>
