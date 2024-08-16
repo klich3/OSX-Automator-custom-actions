@@ -6,11 +6,15 @@ This is multiples "Automator" tools.
 
 The scripts folder are located on `/Users/<USER>/Library/Services/`
 
-copy all workflows manually or run script:
 
-1) in terminal go to cloned dir
-2) `chmod +x install.sh `
-3) `./install.sh`
+1) Clone repo
+2) They are installed by copying the workflow files to `/Users/<USER>/Library/Services/` or run script
+--  
+3) `chmod +x install.sh `
+4) `./install.sh`
+--
+5) As they are installed, we make secondary click on some image or file, in the submenu we go to quick or service actions > Customize.
+6) It will open extensions of the System Setup, with the options copied previously, we give to check in those that we want and already we can use them.
 
 
 Others folders:
