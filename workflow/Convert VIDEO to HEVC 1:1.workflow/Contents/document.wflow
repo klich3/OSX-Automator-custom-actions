@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>523</string>
+	<string>526</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -247,7 +247,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>for i in "$@"; do
-	/usr/local/bin/ffmpeg -i "$i" -c:v libx265 -vtag hvc1 -c:a copy "$i-hevc-c.mp4" &gt; /dev/null 2&gt;&amp;1 &amp;
+	/usr/local/bin/ffmpeg -i "$i" -c:v libx265 -vtag hvc1 -c:a copy "$i-hevc-c.mp4" &gt; /dev/null 2&gt;&amp;1
 done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -373,19 +373,19 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>59AF0800-D13C-4DAD-B7BA-713D18AF85CB</key>
-		<dict>
-			<key>from</key>
-			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
-			<key>to</key>
-			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
-		</dict>
-		<key>EEFA36CF-444D-44CC-BEF5-66D07ED2BDAA</key>
+		<key>9D0AF2A9-8F6A-42D2-B3C6-DCADAB579A53</key>
 		<dict>
 			<key>from</key>
 			<string>160F4E24-6C9D-45A1-8FA3-7045B580EFC7 - 160F4E24-6C9D-45A1-8FA3-7045B580EFC7</string>
 			<key>to</key>
 			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+		</dict>
+		<key>BBF24FEA-0FD8-4E1F-A3F2-2F30ECC73EEF</key>
+		<dict>
+			<key>from</key>
+			<string>9C66A569-6503-4C00-8C24-5604369FA1DA - 9C66A569-6503-4C00-8C24-5604369FA1DA</string>
+			<key>to</key>
+			<string>C9AC8C4F-1781-44AC-ADB6-2373D228A1A3 - C9AC8C4F-1781-44AC-ADB6-2373D228A1A3</string>
 		</dict>
 	</dict>
 	<key>variables</key>
