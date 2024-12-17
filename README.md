@@ -20,6 +20,7 @@ List of available tools:
 - Convert Video to MKV (*1)
 - Convert Mov to WEBP (*1)
 - Files Batch Rename
+- Folder to HTTP server on port 8080
 
 __All tools can process multiple files, sequentially "one after another".__
 
