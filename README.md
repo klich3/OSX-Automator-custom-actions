@@ -13,14 +13,16 @@ List of available tools:
 - Convert Image to AVIF
 - Convert JPG to HEIC
 - Convert HEIC to JPG
+- Convert WEBM image to JPG
 - Convert MOV to MP4 (*1)
 - Convert MOV to GIF (*1)
 - Convert Video to HEVC 1:1 (*1)
-- Covert Video to HEVC SD (*1)
+- Convert Video to HEVC SD (*1)
 - Convert Video to MKV (*1)
 - Convert Mov to WEBP (*1)
 - Files Batch Rename
 - Folder to HTTP server on port 8080
+- M3U8 is a batchet video used for stream, you can reconstruct small pices to normal video
 
 __All tools can process multiple files, sequentially "one after another".__
 

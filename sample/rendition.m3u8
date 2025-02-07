@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:6
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:5,
+https://chunk-gcp-us-east1-vop1.cfcdn.mux.com/v1/chunk/42jeqLqlvHkoH00YWpsLxd41ZMOTA00MINkRv700EhuqSYYy2HEKbKU9d01WEpITzzBb7MPnnpwDeWQVkRIwzjdM9UDk015tnxpn9/0.ts?rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjdhNzM5MzBfZWEzMTY2YmVjZmE0ZDliZjE3NGM0NDY0ZjM1ODY2MzExZWFmNDg4ZjU0NDgzOTc1MDRlYTM2MGEzZjViZWNhZQ==&zone=1
+#EXTINF:5,
+https://chunk-gcp-us-east1-vop1.cfcdn.mux.com/v1/chunk/PxWwleqXngKZK5MD7OTGytxgJowmB7tzeedcYm8pjpsphbdGav3GAebrLmRepC8PhHN5fASgsfwAtDv7BzIvA8xJAYKnwxoZ/1.ts?rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjdhNzM5MzBfYmE1MTJiOGFhYmVmNDY3YmE1ZWY2MjY1ZmQyZGVmMzI4YjRhMTcwZjNhYWNmYzNmNTE3ZTNiZWY0MTFiMzUzMA==&zone=1
+#EXTINF:2.51622,
+https://chunk-gcp-us-east1-vop1.cfcdn.mux.com/v1/chunk/N9E39iMi6TWM7ADhITToddHnHemZgFF2FuxsbWT8wq1UXBTKKC3eHM3JjnU8oY5KKzHdlnw7l8GlK7G5IdOyjW3npuwedzdX/2.ts?rid=Ir02FmqsqUnMIpEqH89MdlvWa15QwOo6dCnelCtSI9YI&skid=default&signature=NjdhNzM5MzBfYWVkYjQ0NWNmMGI0NTA1YmVkNTI0ZjA3NWU0ZDVjZGRkMjI0NmJlZDM0YzU0MTViYzBmMTM1NDk1ZDg3NDMxMg==&zone=1
+#EXT-X-ENDLIST
