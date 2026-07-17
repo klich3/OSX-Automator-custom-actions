@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>528</string>
+	<string>531</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -18,23 +18,20 @@
 					<key>Container</key>
 					<string>List</string>
 					<key>Optional</key>
-					<false/>
+					<true/>
 					<key>Types</key>
 					<array>
-						<string>public.directory</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0.2</string>
+				<string>2.1.1</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
 				</array>
 				<key>AMParameterProperties</key>
-				<dict>
-					<key>recurse</key>
-					<dict/>
-				</dict>
+				<dict/>
 				<key>AMProvides</key>
 				<dict>
 					<key>Container</key>
@@ -47,20 +44,17 @@
 				<key>AMRequiredResources</key>
 				<array/>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Folder Contents.action</string>
+				<string>/System/Library/Automator/Get Selected Finder Items 2.action</string>
 				<key>ActionName</key>
-				<string>Obtener contenido de la carpeta</string>
+				<string>Obtener los ítems del Finder seleccionados</string>
 				<key>ActionParameters</key>
-				<dict>
-					<key>recurse</key>
-					<false/>
-				</dict>
+				<dict/>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.GetFolderContents</string>
+				<string>com.apple.Automator.GetSelectedFinderItems2</string>
 				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
+				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -68,46 +62,27 @@
 					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>GetFolderContents</string>
+				<string>AMGetSelectedFinderItemsAction</string>
 				<key>InputUUID</key>
-				<string>7ADC97FE-F36D-4D3B-8D6F-45E6143A8F78</string>
+				<string>B743C2C4-9A23-41B7-916B-3FCAC437B5EF</string>
 				<key>Keywords</key>
-				<array>
-					<string>Archivo</string>
-					<string>Carpeta</string>
-				</array>
+				<array/>
 				<key>OutputUUID</key>
-				<string>E8A5DEF8-D66F-401F-8E61-BA610FB90E35</string>
+				<string>9AE1FA92-AA5C-4B54-BEC5-823F3CF94E50</string>
 				<key>UUID</key>
-				<string>274FF241-B911-4EEF-91A5-795FCDE5019C</string>
+				<string>E8D1B780-3A2A-4550-82D9-352334204D1C</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
 				</array>
 				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<false/>
-						<key>name</key>
-						<string>recurse</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
+				<dict/>
 				<key>conversionLabel</key>
 				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>507.500000:404.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>207.000000:68.000000</string>
 			</dict>
 			<key>isViewVisible</key>
 			<integer>1</integer>
@@ -306,12 +281,10 @@ done
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>507.500000:586.000000</string>
+				<string>669.000000:370.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -321,10 +294,10 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>85C29090-A296-4669-8E02-64439FA19980</key>
+		<key>A697E2AC-9ECA-44D6-8F2D-B85074ECDCD2</key>
 		<dict>
 			<key>from</key>
-			<string>274FF241-B911-4EEF-91A5-795FCDE5019C - 274FF241-B911-4EEF-91A5-795FCDE5019C</string>
+			<string>E8D1B780-3A2A-4550-82D9-352334204D1C - E8D1B780-3A2A-4550-82D9-352334204D1C</string>
 			<key>to</key>
 			<string>4C8C6710-81F6-412E-A74E-41C05D6FA789 - 4C8C6710-81F6-412E-A74E-41C05D6FA789</string>
 		</dict>
